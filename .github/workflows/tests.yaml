@@ -36,7 +36,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [macos-latest, ubuntu-latest, windows-latest]
+        os: [macos-latest, ubuntu-24.04-riscv, ubuntu-latest, windows-latest]
     env:
       OS: ${{ matrix.os }}
 
